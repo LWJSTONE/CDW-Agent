@@ -1,0 +1,51 @@
+# dependencies
+node_modules/
+bun.lock
+
+# next.js
+.next/
+out/
+
+# environment
+.env
+.env.local
+.env*.local
+
+# logs
+*.log
+npm-debug.log*
+dev.log
+server.log
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+.pnpm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# prisma
+prisma/*.db
+prisma/*.db-journal
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Cache
+.cache/
+
+# Z scripts (internal)
+.zscripts/
+
+# Upload folder
+upload/
